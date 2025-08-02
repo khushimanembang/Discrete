@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 	bool p,q,r;
 	
-	cout<< "p q r | pvq q^r->r q^~r|~p| valid? \n";
+	cout<< "p q r | pvq q^q->r q^~r|~p| valid? \n";
 	cout<<"--------------------------------------------------\n";
 	for(int i=0;i<8;i++){
 		p=i/4;
@@ -27,3 +27,4 @@ int main(){
 }
 return 0;	
 }
+
